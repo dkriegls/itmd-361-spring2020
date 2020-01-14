@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		div {
+			width: 100px;
+			height: 100px;
+			background-color: blue;
+			margin: 10px;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<div id="div1"></div>
+	<div id="div2"></div>
+	<div id="div3">Hello</div>
+  <div id="div4">Helloier</div>
+	
+	<script type="text/javascript">
+		function myEventFunction(){
+			alert('Hello');
+		}
+
+		var d4 = document.getElementById('div4');
+		d4.addEventListener('click', myEventFunction);
+		d4.addEventListener('click', function(){
+			console.log('I was Clicked!');
+			d4.style.backgroundColor = '#C00';
+			d4.innerHTML = '<strong>Goodbye</strong>';
+		});
+	</script>
+</body>
+</html>

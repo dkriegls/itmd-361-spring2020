@@ -1,0 +1,1 @@
+A Lean and Progressive Free jQuery Image Slider - http://dev7studios.com/lean-slider
