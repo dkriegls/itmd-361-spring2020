@@ -5,6 +5,8 @@ background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0
 background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
 
+height: 80px;
+
 }
 .container {
 	width: 960px;
@@ -12,33 +14,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 	overflow: hidden;
 }
 
-#main-header img.logo {
-	margin: 20px;
-	margin-left: 125px;
-	float: left;
-}
-
-#main-header #company-name {
-	float: left;
-	margin-top: 40px;
-	font-family: 'Fascinate Inline', cursive;
-	font-size: 32px;
-	color: #fff;
-}
-
 #header-container {
 	position: relative;
-}
-
-#logo-link {
-	width: 76px;
-	height: 120px;
-	display: block;
-	position: absolute;
-	top: 20px;
-	left: 40px;
-	background-image: url('../img/logo.png');
-	text-indent: -9999px;
 }
 
 #main-navbar {
@@ -46,7 +23,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 }
 
 #navbar-container {
-	float: left;
 	width: 100%;
 	position: relative;
   /*text-aling only works if you turn the content into inline-block*/
@@ -90,9 +66,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
 #main-navbar #onpage {
   text-decoration: underline;
-  background-color: none;
-}
-
-h1 {
-	text-align: center;
 }

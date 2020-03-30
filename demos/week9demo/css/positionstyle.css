@@ -24,14 +24,14 @@ body {
 }
 
 .parent {
-  position: relat;
+  position: relative;
   width: 100%;
 }
 
 .absexample {
   position: absolute;
   bottom: 10px;
-  left: 100px;
+  left: 50px;
   background-color: #777;
 }
 
@@ -59,7 +59,7 @@ body {
   position: absolute;
   top: 10;
   left: 0px;
-  z-index: 10;
+  z-index: 15;
 }
 
 .smbox {
@@ -75,8 +75,8 @@ body {
   width: 150px;
   height: 100px;
   position: fixed;
-  top: 20px;
-  right: 40px;
+  top: 100px;
+  left: 40px;
 }
 
 
